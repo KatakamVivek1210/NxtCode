@@ -10,7 +10,7 @@ export default defineConfig({
     allowedHosts: true,
   },
   build: {
-    outDir: 'build',
+    outDir: 'dist',
   },
   plugins: [react(), eslint()],
 })
