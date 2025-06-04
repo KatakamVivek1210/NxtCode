@@ -11,6 +11,7 @@ export default defineConfig({
   },
   build: {
     outDir: 'dist',
+    emptyOutDir: true,
   },
   plugins: [react(), eslint()],
 })
