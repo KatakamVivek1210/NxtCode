@@ -1,0 +1,92 @@
+.leaderboard-row-container {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #cbd5e164;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 50px;
+}
+
+.table-cell {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  padding-right: 24px;
+}
+
+.text {
+  color: #475569;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  margin: 0;
+}
+
+.rank-container {
+  width: 15%;
+}
+
+.rank {
+  color: #334155;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  padding-left: 12px;
+}
+
+.badge {
+  width: 32px;
+  height: 32px;
+}
+
+.profile-container {
+  width: 30%;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.name {
+  color: #334155;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  flex: 1;
+}
+
+.score-container {
+  width: 15%;
+}
+.score {
+  color: #334155;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+.language {
+  color: #334155;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.language-container,
+.time-spent-container {
+  width: 20%;
+}
+
+.timer-icon {
+  color: #475569;
+}
+
+.time-spent {
+  color: #334155;
+  margin: 0px;
+  margin-left: 6px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}

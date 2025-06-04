@@ -1,0 +1,21 @@
+.header-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.header-elements-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .header-elements-container {
+    max-width: 1100px;
+  }
+}
+
+.logo {
+  height: 36px;
+}
